@@ -1,7 +1,6 @@
 // Product of all digits
 
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main() {
