@@ -1,6 +1,7 @@
 // 1 to 100 using while loop
 
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int main(){
     int i=1;
