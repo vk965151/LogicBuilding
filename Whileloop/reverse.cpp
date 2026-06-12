@@ -1,7 +1,6 @@
 // revrse no.
 
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main() {
@@ -16,6 +15,6 @@ int main() {
         nums = nums/10;
 
     }
-    cout<<"Product of all digit :"<<rev;
+    cout<<"Reverse of all digit :"<<rev;
     return 0;
 }
