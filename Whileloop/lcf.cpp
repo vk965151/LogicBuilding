@@ -12,6 +12,7 @@ int main (){
     while(i <= num/2){
         if (num % i == 0){
             fac = i;
+            break;
         }
         i++;
     }
@@ -19,7 +20,7 @@ int main (){
     if (num <= 1){
         cout<<"No proper factors for "<<num<<"."<<endl;
     } else {
-        cout<<"Highest factor of "<<num<<" is "<<fac<<endl;
+        cout<<"least factor of "<<num<<" is "<<fac<<endl;
     }
 
     return 0;
