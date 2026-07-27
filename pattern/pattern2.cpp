@@ -12,6 +12,7 @@ int main(){
             cout<<"*"<<" ";
         }
         cout<<endl;
+        cout<<" ";
     }
     return 0;
 }
